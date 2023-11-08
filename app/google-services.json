@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "591200233920",
+    "project_id": "dapm-a66f9",
+    "storage_bucket": "dapm-a66f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591200233920:android:3d09fc0a121a431aee8025",
+        "android_client_info": {
+          "package_name": "com.example.dapm_food"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSz5OR2muhQzAb3HXCDz9GxY4N2Assero"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
