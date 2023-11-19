@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dapm_food.ChefFoodPanel.Update_Delete_Dish">
+    tools:context="com.example.dapm_food.Chef.ChefActivity.Chef_Update_Delete_Dish">
 
     <ImageButton
         android:id="@+id/imageupload"
@@ -25,28 +25,63 @@
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.33">
-
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
         <TextView
-            android:id="@+id/dish_name"
+            android:id="@+id/category_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã thể loại"
+            android:textColor="@color/Black"
+            android:textSize="17dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp" />
+        <Spinner
+            android:id="@+id/dish_cate_spinner"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_marginLeft="5dp"
-            android:text="Tên món ăn "
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/category_label"
             android:textColor="@color/Black"
             android:textSize="17dp" />
+        </RelativeLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/dish_name"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/Black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dish_cate"
+            app:layout_constraintVertical_bias="0.023">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tên món ăn"
+                android:background="@color/white"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
 
 
     </LinearLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/description"
+        android:id="@+id/nameCate"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -67,7 +102,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/quantity"
+        android:id="@+id/Mo_ta"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -76,7 +111,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.534"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/description"
+        app:layout_constraintTop_toBottomOf="@+id/nameCate"
         app:layout_constraintVertical_bias="0.025">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -97,7 +132,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.534"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/quantity"
+        app:layout_constraintTop_toBottomOf="@+id/Mo_ta"
         app:layout_constraintVertical_bias="0.042">
 
         <com.google.android.material.textfield.TextInputEditText

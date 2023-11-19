@@ -3,7 +3,8 @@ package com.example.dapm_food;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-
+//May not be copied in any form
+//Copyright belongs to Nguyen TrongTin. contact: email:tinnguyen2421@gmail.com
 public class ReusableCodeForAll {
 
     public static void ShowAlert(Context context,String title,String message)

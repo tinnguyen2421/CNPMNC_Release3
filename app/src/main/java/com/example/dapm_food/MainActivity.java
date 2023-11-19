@@ -1,9 +1,5 @@
 package com.example.dapm_food;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.content.DialogInterface;
@@ -14,11 +10,13 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.dapm_food.ChefFoodPanel_BottomNavigation;
-import com.example.dapm_food.CustomerFoodPanel_BottomNavigation;
-import com.example.dapm_food.MainMenu;
-import com.example.dapm_food.R;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.dapm_food.BottomNavigation.ChefFoodPanel_BottomNavigation;
+import com.example.dapm_food.BottomNavigation.CustomerFoodPanel_BottomNavigation;
+import com.example.dapm_food.BottomNavigation.Delivery_FoodPanelBottomNavigation;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
@@ -28,7 +26,8 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-
+//May not be copied in any form
+//Copyright belongs to Nguyen TrongTin. contact: email:tinnguyen2421@gmail.com
 public class MainActivity extends AppCompatActivity {
 
     FirebaseAuth Fauth;
@@ -103,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
                     } else {
 
                         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-                        builder.setMessage("Check whether you have verified your details, Otherwise please verify");
+                        builder.setMessage("Kiểm tra xem bạn đã xác minh thông tin của mình chưa, nếu không vui lòng xác minh");
                         builder.setCancelable(false);
                         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                             @Override

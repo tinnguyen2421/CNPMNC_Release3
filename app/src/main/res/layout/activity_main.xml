@@ -27,7 +27,7 @@
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="@color/Black"
-        android:text="Đứng dụng đặt đồ ăn nhanh "
+
         android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

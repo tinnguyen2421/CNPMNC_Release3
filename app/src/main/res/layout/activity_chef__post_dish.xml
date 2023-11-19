@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dapm_food.ChefFoodPanel.Chef_PostDish"
+    tools:context="com.example.dapm_food.Chef.ChefActivity.Chef_PostDish"
     android:background="@drawable/pic14">
 
 
@@ -21,14 +21,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.312">
 
-        <TextView
-            android:id="@+id/textView"
+        <Spinner
+            android:id="@+id/spinnerID"
             android:layout_width="105dp"
             android:layout_height="30dp"
             android:layout_marginLeft="5dp"
             android:text="Tên Món:"
             android:textColor="@color/white"
             android:textSize="17dp"
+            android:background="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.191"
@@ -36,8 +37,8 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.37" />
 
-        <Spinner
-            android:id="@+id/dishes"
+        <EditText
+            android:id="@+id/dishes_ID"
             android:layout_width="162dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="12dp"
@@ -52,7 +53,7 @@
     </LinearLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/description"
+        android:id="@+id/nameCate"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:textColorHint="@color/white"
@@ -75,7 +76,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/quantity"
+        android:id="@+id/Mo_ta"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:textColorHint="@color/white"
@@ -83,7 +84,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/description"
+        app:layout_constraintTop_toBottomOf="@+id/nameCate"
         app:layout_constraintVertical_bias="0.093">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -91,8 +92,6 @@
             android:layout_height="wrap_content"
             android:hint="Số lượng"
             android:background="@color/white"
-            android:textColorHint="@color/black"
-            android:textColor="@color/black"
             android:inputType="number" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -105,7 +104,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/quantity"
+        app:layout_constraintTop_toBottomOf="@+id/Mo_ta"
         app:layout_constraintVertical_bias="0.093">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -119,7 +118,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/post"
+        android:id="@+id/postCate"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:background="@drawable/btnred"

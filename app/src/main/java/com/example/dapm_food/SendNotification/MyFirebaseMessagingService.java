@@ -4,7 +4,8 @@ import androidx.annotation.NonNull;
 
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
-
+//May not be copied in any form
+//Copyright belongs to Nguyen TrongTin. contact: email:tinnguyen2421@gmail.com
 public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
     String title, message, typepage;

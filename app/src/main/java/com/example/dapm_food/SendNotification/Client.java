@@ -2,7 +2,8 @@ package com.example.dapm_food.SendNotification;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-
+//May not be copied in any form
+//Copyright belongs to Nguyen TrongTin. contact: email:tinnguyen2421@gmail.com
 public class Client {
     private static Retrofit retrofit=null;
 

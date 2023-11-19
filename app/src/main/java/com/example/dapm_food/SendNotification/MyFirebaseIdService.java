@@ -9,7 +9,8 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.messaging.FirebaseMessaging;
 import com.google.firebase.messaging.FirebaseMessagingService;
-
+//May not be copied in any form
+//Copyright belongs to Nguyen TrongTin. contact: email:tinnguyen2421@gmail.com
 public class MyFirebaseIdService extends FirebaseMessagingService {
 
     @Override

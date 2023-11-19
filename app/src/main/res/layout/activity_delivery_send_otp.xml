@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/pic9"
-    tools:context="com.example.dapm_food.DeliverySendOtp">
+    tools:context="com.example.dapm_food.DeliveryAccount.DeliverySendOtp">
 
     <LinearLayout
         android:id="@+id/linearlayout"

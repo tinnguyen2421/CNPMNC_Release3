@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dapm_food.Delivery_FoodPanelBottomNavigation">
+    tools:context="com.example.dapm_food.BottomNavigation.Delivery_FoodPanelBottomNavigation">
 
     <FrameLayout
         android:id="@+id/fragment_container"

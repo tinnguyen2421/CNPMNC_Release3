@@ -12,15 +12,16 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 import androidx.core.content.ContextCompat;
 
-import com.example.dapm_food.ChefFoodPanel_BottomNavigation;
-import com.example.dapm_food.CustomerFoodPanel_BottomNavigation;
+import com.example.dapm_food.BottomNavigation.ChefFoodPanel_BottomNavigation;
+import com.example.dapm_food.BottomNavigation.CustomerFoodPanel_BottomNavigation;
 import com.example.dapm_food.MainActivity;
 import com.example.dapm_food.R;
 
 import java.util.Random;
 
 
-
+//May not be copied in any form
+//Copyright belongs to Nguyen TrongTin. contact: email:tinnguyen2421@gmail.com
 public class ShowNotification {
 
     public static void ShowNotif(Context context, String title, String message, String page) {

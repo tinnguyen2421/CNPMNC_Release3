@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.dapm_food.CustomerFoodPanel.OrderDish">
+    tools:context="com.example.dapm_food.Customerr.CustomerActivity.OrderDish">
 
 
     <ScrollView

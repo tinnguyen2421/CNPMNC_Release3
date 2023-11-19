@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/loginbackground"
-    tools:context="com.example.dapm_food.DeliveryRegisteration">
+    tools:context="com.example.dapm_food.DeliveryAccount.DeliveryRegisteration">
 
     <ScrollView
         android:layout_width="match_parent"

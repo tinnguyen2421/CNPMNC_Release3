@@ -9,6 +9,17 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
+import com.example.dapm_food.ChefAccount.ChefLoginEmail;
+import com.example.dapm_food.ChefAccount.ChefRegisteration;
+import com.example.dapm_food.ChefAccount.Chefloginphone;
+import com.example.dapm_food.CustomerAccount.CustomerLoginEmail;
+import com.example.dapm_food.CustomerAccount.CustomerLoginPhone;
+import com.example.dapm_food.CustomerAccount.CustomerRegisteration;
+import com.example.dapm_food.DeliveryAccount.DeliveryLoginEmail;
+import com.example.dapm_food.DeliveryAccount.DeliveryLoginPhone;
+import com.example.dapm_food.DeliveryAccount.DeliveryRegisteration;
+//May not be copied in any form
+//Copyright belongs to Nguyen TrongTin. contact: email:tinnguyen2421@gmail.com
 
 public class ChooseOne extends AppCompatActivity {
 

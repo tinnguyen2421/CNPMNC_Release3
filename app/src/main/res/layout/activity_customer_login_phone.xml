@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:background="@drawable/pic11"
     android:layout_height="match_parent"
-    tools:context="com.example.dapm_food.CustomerLoginPhone">
+    tools:context="com.example.dapm_food.CustomerAccount.CustomerLoginPhone">
 
     <LinearLayout
         android:id="@+id/linearlayout"
@@ -52,7 +52,7 @@
             <EditText
                 android:id="@+id/number"
                 android:layout_width="132dp"
-                android:layout_height="wrap_content"
+                android:layout_height="35dp"
                 android:layout_marginLeft="10dp"
                 android:inputType="number" />
         </LinearLayout>
